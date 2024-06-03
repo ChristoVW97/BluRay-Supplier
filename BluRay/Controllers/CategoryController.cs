@@ -33,6 +33,7 @@ namespace BluRay.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "New Category added successfully";
                 return RedirectToAction("Index");
 
             }
@@ -61,6 +62,7 @@ namespace BluRay.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Category Updated successfully";
                 return RedirectToAction("Index");
             }
             return View();
@@ -90,6 +92,7 @@ namespace BluRay.Controllers
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Category Successfully Deleted";
             return RedirectToAction("Index");
         }
 
