@@ -20,4 +20,8 @@
     <ProjectReference Include="..\BluRay.DataAccess\BluRay.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

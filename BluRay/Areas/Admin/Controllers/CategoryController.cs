@@ -3,8 +3,9 @@ using BluRay.DataAccess.Repository.IRepository;
 using BluRay.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BluRay.Controllers
+namespace BluRay.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
