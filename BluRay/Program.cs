@@ -1,4 +1,4 @@
-using BluRay.Data;
+using BluRay.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

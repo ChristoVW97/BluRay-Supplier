@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace BluRay.Data
+namespace BluRay.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

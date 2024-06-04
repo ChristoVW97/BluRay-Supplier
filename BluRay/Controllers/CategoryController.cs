@@ -1,4 +1,4 @@
-﻿using BluRay.Data;
+﻿using BluRay.DataAccess.Data;
 using BluRay.Models;
 using Microsoft.AspNetCore.Mvc;
 

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BluRay.Migrations
+namespace BluRay.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration

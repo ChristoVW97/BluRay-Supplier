@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluRay", "BluRay\BluRay.csproj", "{70427BFE-F5D8-4977-A0D1-7DB3E2E91BD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BluRay", "BluRay\BluRay.csproj", "{70427BFE-F5D8-4977-A0D1-7DB3E2E91BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluRay.DataAccess", "BluRay.DataAccess\BluRay.DataAccess.csproj", "{1AEF6FC8-6E2C-4EF3-B9C1-B9F76547FE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluRay.Models", "BluRay.Models\BluRay.Models.csproj", "{56AC3250-BD3F-464E-9446-91953FCDB2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluRay.Utility", "BluRay.Utility\BluRay.Utility.csproj", "{5BDF7DAA-AC75-41C0-8A5B-C10F32A612AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{70427BFE-F5D8-4977-A0D1-7DB3E2E91BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70427BFE-F5D8-4977-A0D1-7DB3E2E91BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70427BFE-F5D8-4977-A0D1-7DB3E2E91BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEF6FC8-6E2C-4EF3-B9C1-B9F76547FE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEF6FC8-6E2C-4EF3-B9C1-B9F76547FE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEF6FC8-6E2C-4EF3-B9C1-B9F76547FE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEF6FC8-6E2C-4EF3-B9C1-B9F76547FE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AC3250-BD3F-464E-9446-91953FCDB2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AC3250-BD3F-464E-9446-91953FCDB2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AC3250-BD3F-464E-9446-91953FCDB2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AC3250-BD3F-464E-9446-91953FCDB2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDF7DAA-AC75-41C0-8A5B-C10F32A612AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDF7DAA-AC75-41C0-8A5B-C10F32A612AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDF7DAA-AC75-41C0-8A5B-C10F32A612AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDF7DAA-AC75-41C0-8A5B-C10F32A612AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
