@@ -26,7 +26,7 @@ namespace BluRay.DataAccess.Data
                 {
                     Id = 1,
                     Title = "Fortune of Time",
-                    Author = "Billy Spark",
+                    Director = "Billy Spark",
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "SWD9999001",
                     ListPrice = 99,
@@ -40,7 +40,7 @@ namespace BluRay.DataAccess.Data
                 {
                     Id = 2,
                     Title = "Dark Skies",
-                    Author = "Nancy Hoover",
+                    Director = "Nancy Hoover",
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "CAW777777701",
                     ListPrice = 40,
@@ -54,7 +54,7 @@ namespace BluRay.DataAccess.Data
                 {
                     Id = 3,
                     Title = "Vanish in the Sunset",
-                    Author = "Julian Button",
+                    Director = "Julian Button",
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "RITO5555501",
                     ListPrice = 55,
@@ -68,7 +68,7 @@ namespace BluRay.DataAccess.Data
                 {
                     Id = 4,
                     Title = "Cotton Candy",
-                    Author = "Abby Muscles",
+                    Director = "Abby Muscles",
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "WS3333333301",
                     ListPrice = 70,
@@ -82,7 +82,7 @@ namespace BluRay.DataAccess.Data
                 {
                     Id = 5,
                     Title = "Rock in the Ocean",
-                    Author = "Ron Parker",
+                    Director = "Ron Parker",
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "SOTJ1111111101",
                     ListPrice = 30,
@@ -96,7 +96,7 @@ namespace BluRay.DataAccess.Data
                 {
                     Id = 6,
                     Title = "Leaves and Wonders",
-                    Author = "Laura Phantom",
+                    Director = "Laura Phantom",
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "FOT000000001",
                     ListPrice = 25,
