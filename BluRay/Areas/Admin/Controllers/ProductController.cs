@@ -2,12 +2,15 @@
 using BluRay.DataAccess.Repository.IRepository;
 using BluRay.Models;
 using BluRay.Models.ViewModels;
+using BluRay.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BluRay.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
