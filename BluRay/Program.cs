@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using BluRay.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
-
+//test
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
