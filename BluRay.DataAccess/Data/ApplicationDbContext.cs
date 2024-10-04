@@ -53,7 +53,7 @@ namespace BluRay.DataAccess.Data
                     Price50 = 25,
                     Price100 = 20,
                     CategoryId = 2,
-                    ImageUrl = "\\images\\product\\b5b7b961-3e0b-47a9-94d1-0602f3df033a.jpg"
+                    ImageUrl = "\\images\\product\\8825f6bf-8eb7-4e06-b230-a3288e946807.jpg"
                 },
                 new Product
                 {
@@ -72,16 +72,16 @@ namespace BluRay.DataAccess.Data
                 new Product
                 {
                     Id = 4,
-                    Title = "Cotton Candy",
-                    Director = "Abby Muscles",
-                    Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
-                    ISBN = "WS3333333301",
-                    ListPrice = 70,
-                    Price = 65,
-                    Price50 = 60,
-                    Price100 = 55,
+                    Title = "Avatar",
+                    Director = "James Cameron",
+                    Description = "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world. ",
+                    ISBN = "FOT000000001",
+                    ListPrice = 25,
+                    Price = 23,
+                    Price50 = 22,
+                    Price100 = 20,
                     CategoryId = 2,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\e72f8d8b-ba34-409c-86af-6d4e79d1a5fc.jpg"
                 },
                 new Product
                 {
@@ -110,21 +110,7 @@ namespace BluRay.DataAccess.Data
                     Price100 = 20,
                     CategoryId = 3,
                     ImageUrl = "\\images\\product\\d455e07f-efac-4e7a-a127-459864f3ab87.jpg"
-                },
-                 new Product
-                 {
-                     Id = 7,
-                     Title = "Avatar",
-                     Director = "James Cameron",
-                     Description = "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world. ",
-                     ISBN = "FOT000000001",
-                     ListPrice = 25,
-                     Price = 23,
-                     Price50 = 22,
-                     Price100 = 20,
-                     CategoryId = 2,
-                     ImageUrl = "\\images\\product\\e72f8d8b-ba34-409c-86af-6d4e79d1a5fc.jpg"
-                 }
+                }               
             );
 
         }

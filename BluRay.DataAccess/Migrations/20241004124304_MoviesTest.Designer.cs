@@ -4,16 +4,19 @@ using BluRay.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BluRay.DataAccess.Data
+namespace BluRay.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241004124304_MoviesTest")]
+    partial class MoviesTest
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -134,7 +137,7 @@ namespace BluRay.DataAccess.Data
                             Description = "Deckard (Harrison Ford) is forced by the police Boss (M. Emmet Walsh) to continue his old job as Replicant Hunter. His assignment: eliminate four escaped Replicants from the colonies who have returned to Earth. Before starting the job, Deckard goes to the Tyrell Corporation and he meets Rachel (Sean Young), a Replicant girl he falls in love with.\r\n ",
                             Director = "Denis Villeneuve",
                             ISBN = "CAW777777701",
-                            ImageUrl = "\\images\\product\\8825f6bf-8eb7-4e06-b230-a3288e946807.jpg",
+                            ImageUrl = "\\images\\product\\b5b7b961-3e0b-47a9-94d1-0602f3df033a.jpg",
                             ListPrice = 40.0,
                             Price = 30.0,
                             Price100 = 20.0,
