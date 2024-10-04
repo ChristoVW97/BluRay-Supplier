@@ -4,16 +4,19 @@ using BluRay.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BluRay.DataAccess.Data
+namespace BluRay.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241004115428_Max")]
+    partial class Max
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -120,7 +123,7 @@ namespace BluRay.DataAccess.Data
                             Description = "When Earth falls under attack from invincible aliens, no military unit in the world is able to beat them. Maj. William Cage (Tom Cruise), an officer who has never seen combat, is assigned to a suicide mission. Killed within moments, Cage finds himself thrown into a time loop, in which he relives the same brutal fight -- and his death -- over and over again. However, Cage's fighting skills improve with each encore, bringing him and a comrade (Emily Blunt) ever closer to defeating the aliens.\r\n ",
                             Director = "Doug Liman",
                             ISBN = "SWD9999001",
-                            ImageUrl = "\\images\\product\\aba22066-062a-4369-9e56-4bcd612e40be.jpg",
+                            ImageUrl = "F:\\VS\\Projects\\BluRay-Supplier\\BluRay\\wwwroot\\Images\\Product\\37f6afc7-9bd3-4392-a681-c23ff6020dab.jpg",
                             ListPrice = 99.0,
                             Price = 90.0,
                             Price100 = 80.0,
@@ -134,7 +137,7 @@ namespace BluRay.DataAccess.Data
                             Description = "Deckard (Harrison Ford) is forced by the police Boss (M. Emmet Walsh) to continue his old job as Replicant Hunter. His assignment: eliminate four escaped Replicants from the colonies who have returned to Earth. Before starting the job, Deckard goes to the Tyrell Corporation and he meets Rachel (Sean Young), a Replicant girl he falls in love with.\r\n ",
                             Director = "Denis Villeneuve",
                             ISBN = "CAW777777701",
-                            ImageUrl = "\\images\\product\\b5b7b961-3e0b-47a9-94d1-0602f3df033a.jpg",
+                            ImageUrl = "",
                             ListPrice = 40.0,
                             Price = 30.0,
                             Price100 = 20.0,
@@ -148,7 +151,7 @@ namespace BluRay.DataAccess.Data
                             Description = "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to a dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of a precious resource in existence, only those who can conquer their own fear will survive. ",
                             Director = "Denis Villeneuve",
                             ISBN = "RITO5555501",
-                            ImageUrl = "\\images\\product\\443da8dd-1d82-4d01-8896-b40b525bd919.jpg",
+                            ImageUrl = "",
                             ListPrice = 55.0,
                             Price = 50.0,
                             Price100 = 35.0,
@@ -174,7 +177,7 @@ namespace BluRay.DataAccess.Data
                             Id = 5,
                             CategoryId = 1,
                             Description = "Years after the collapse of civilization, the tyrannical Immortan Joe enslaves apocalypse survivors inside the desert fortress the Citadel. When the warrior Imperator Furiosa (Charlize Theron) leads the despot's five wives in a daring escape, she forges an alliance with Max Rockatansky (Tom Hardy), a loner and former captive. Fortified in the massive, armored truck the War Rig, they try to outrun the ruthless warlord and his henchmen in a deadly high-speed chase through the Wasteland.\r\n ",
-                            Director = "George Miller",
+                            Director = "Denis Villeneuve",
                             ISBN = "SOTJ1111111101",
                             ImageUrl = "\\images\\product\\a3255ace-b75e-4dcb-8dbe-07f5cde86de0.jpg",
                             ListPrice = 30.0,
@@ -187,29 +190,15 @@ namespace BluRay.DataAccess.Data
                         {
                             Id = 6,
                             CategoryId = 3,
-                            Description = "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.\r\n ",
-                            Director = "Christopher Nolan",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
+                            Director = "Laura Phantom",
                             ISBN = "FOT000000001",
-                            ImageUrl = "\\images\\product\\d455e07f-efac-4e7a-a127-459864f3ab87.jpg",
+                            ImageUrl = "",
                             ListPrice = 25.0,
                             Price = 23.0,
                             Price100 = 20.0,
                             Price50 = 22.0,
-                            Title = "Interstellar"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CategoryId = 2,
-                            Description = "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world. ",
-                            Director = "James Cameron",
-                            ISBN = "FOT000000001",
-                            ImageUrl = "\\images\\product\\e72f8d8b-ba34-409c-86af-6d4e79d1a5fc.jpg",
-                            ListPrice = 25.0,
-                            Price = 23.0,
-                            Price100 = 20.0,
-                            Price50 = 22.0,
-                            Title = "Avatar"
+                            Title = "Leaves and Wonders"
                         });
                 });
 

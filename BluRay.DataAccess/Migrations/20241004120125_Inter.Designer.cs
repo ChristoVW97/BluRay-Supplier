@@ -4,16 +4,19 @@ using BluRay.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BluRay.DataAccess.Data
+namespace BluRay.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241004120125_Inter")]
+    partial class Inter
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -174,7 +177,7 @@ namespace BluRay.DataAccess.Data
                             Id = 5,
                             CategoryId = 1,
                             Description = "Years after the collapse of civilization, the tyrannical Immortan Joe enslaves apocalypse survivors inside the desert fortress the Citadel. When the warrior Imperator Furiosa (Charlize Theron) leads the despot's five wives in a daring escape, she forges an alliance with Max Rockatansky (Tom Hardy), a loner and former captive. Fortified in the massive, armored truck the War Rig, they try to outrun the ruthless warlord and his henchmen in a deadly high-speed chase through the Wasteland.\r\n ",
-                            Director = "George Miller",
+                            Director = "Denis Villeneuve",
                             ISBN = "SOTJ1111111101",
                             ImageUrl = "\\images\\product\\a3255ace-b75e-4dcb-8dbe-07f5cde86de0.jpg",
                             ListPrice = 30.0,
@@ -196,20 +199,6 @@ namespace BluRay.DataAccess.Data
                             Price100 = 20.0,
                             Price50 = 22.0,
                             Title = "Interstellar"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CategoryId = 2,
-                            Description = "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world. ",
-                            Director = "James Cameron",
-                            ISBN = "FOT000000001",
-                            ImageUrl = "\\images\\product\\e72f8d8b-ba34-409c-86af-6d4e79d1a5fc.jpg",
-                            ListPrice = 25.0,
-                            Price = 23.0,
-                            Price100 = 20.0,
-                            Price50 = 22.0,
-                            Title = "Avatar"
                         });
                 });
 
